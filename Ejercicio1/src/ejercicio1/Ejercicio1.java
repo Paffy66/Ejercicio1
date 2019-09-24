@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package ejercicio1;
+import javax.swing.JFrame;
 
 /**
  *
@@ -16,6 +17,13 @@ public class Ejercicio1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        JFrame fenetre = new JFrame();
+        fenetre.setTitle("Ma première fenêtre Java");
+        fenetre.setSize(400, 100);
+        fenetre.setLocationRelativeTo(null);
+        fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        fenetre.setVisible(true);
+        
     }
     
 }
